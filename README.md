@@ -1,5 +1,7 @@
 # 8-Puzzle Solver
-This project uses state-space search algorithms to solve a sliding 8 tile puzzle. The implemented options include breadth-first, depth-first, greedy, and A* search algorithms.
+This project uses state-space search algorithms to solve a sliding 8 tile puzzle. The implemented options include breadth-first, depth-first, greedy, and A* search algorithms. Aspects of the solver are created with textbook object-oriented-programming techniques.
+
+<img width="677" height="290" alt="8-puzzle-states" src="https://github.com/user-attachments/assets/fbd43fd8-19ab-4989-a0d6-0214d01fc15a" />
 
 ## Overview
 The 8-puzzle is a puzzle that is played on a 3x3 grid, with 8 tiles occupied and one empty space. The objective is to reach a goal state where all tiles are in their correct position, by sliding tiles around. Tiles adjacent to the empty space can be moved by pushing the tile to the empty space.
