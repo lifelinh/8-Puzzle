@@ -1,11 +1,14 @@
 # 8-Puzzle Solver
 This project uses state-space search algorithms to solve a sliding 8 tile puzzle. The implemented options include breadth-first, depth-first, greedy, and A* search algorithms.
+
 ## Overview
-The 8-puzzle is a puzzle that is played on a 3x3 grid, with 8 tiles occupied and one empty space. The objective is to reach a goal state where all tiles are in their correct position, by sliding tiles around. Tiles adjacent to the empty space can be moved by pushing the tile to the empty space. 
+The 8-puzzle is a puzzle that is played on a 3x3 grid, with 8 tiles occupied and one empty space. The objective is to reach a goal state where all tiles are in their correct position, by sliding tiles around. Tiles adjacent to the empty space can be moved by pushing the tile to the empty space.
+
 ## Algorithms
 The 8-puzzle can be optimized by completing it with the least amount of movement steps needed. Finding the solution can be done with a state-space search algorithm, which explores a graph of possible board states to find a path from the initial state to the goal state. 
 
 Several different algorithms are available, and each varies in solution accuracy, search speed, or computational efficiency:
+
 <details>
   <summary>Breadth-First Search</summary>
   
@@ -13,6 +16,7 @@ Several different algorithms are available, and each varies in solution accuracy
 
   More info: https://en.wikipedia.org/wiki/Breadth-first_search
 </details>
+
 <details>
   <summary>Depth-First Search</summary>
   
@@ -20,11 +24,13 @@ Several different algorithms are available, and each varies in solution accuracy
 
   More info: https://en.wikipedia.org/wiki/Depth-first_search
 </details>
+
 <details>
   <summary>Greedy Search</summary>
   
   Greedy algorithms will explore the state that seems closest to the goal state. A heuristic must be chosen for the algorithm to measure "closeness" of a state to the goal state. This usually results in fast solutions, but it is not guaranteed to return an optimal path.
 </details>
+
 <details>
   <summary>A* Search</summary>
   
@@ -40,6 +46,8 @@ In your terminal:
 ```bash
 git clone https://github.com/lifelinh/8-Puzzle.git
 ```
+Or, you can download the files from the releases.
+
 Next, start the program using IPython in terminal after navigating to the directory that contains the repository files.
 ```bash
 ipython
