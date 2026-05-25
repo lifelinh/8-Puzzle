@@ -46,7 +46,7 @@ In your terminal:
 ```bash
 git clone https://github.com/lifelinh/8-Puzzle.git
 ```
-Or, you can download the files from the releases.
+Or, you can download the files from the [releases](https://github.com/the-amazing-digital-circus/8-Puzzle-Solver/releases/tag/release).
 
 Next, start the program using IPython in terminal after navigating to the directory that contains the repository files.
 ```bash
